@@ -1,0 +1,36 @@
+html,
+body,
+#root,
+.main {
+    height: 100%;
+    font-family: "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.leftNav {
+    float: left;
+    width: 280px;
+    background-color: #001529;
+    height: 100%;
+    padding: 20px 0
+}
+
+.navMenu{
+    list-style: none;
+    padding: 0 20px;
+}
+
+.navMenu:hover {
+    background-color: #1890ff;
+}
+
+.navLink {
+    display: block;
+    line-height: 30px;
+    text-decoration: none;
+    color: #fff;
+    padding: 4px 0 4px 8px;
+}
